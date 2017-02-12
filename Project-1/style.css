@@ -1,0 +1,25 @@
+body {
+    font: 10px Georgia;
+}
+.axis .label {
+    font-family: "Georgia","Times New Roman";
+    font-size: 10pt;
+    font-weight: bold;
+}
+.axis text {
+    font-family: "Georgia","Times New Roman";
+    font-size: 7pt;
+}
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+    stroke-opacity: 0.8;
+}
+.tooltip {
+    position: absolute;
+    width: 200px;
+    height: 28px;
+    pointer-events: none;
+    font-family: "Georgia","Times New Roman";
+}
